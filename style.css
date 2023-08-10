@@ -3,6 +3,52 @@
   src: url(vintage_avocado/Vintage\ Avocado.ttf);
 }
 
+
+
+form {
+  background: #5f6f52;
+ 
+  box-shadow: 0 1px 2px #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  margin: 0 1vw;
+  padding: 1vw;
+  width: 15vw;
+}
+
+textarea{
+height: 5vw;
+border: none;
+  border-radius: 5px;
+  color: #777;
+  font-size: 18px;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+}
+
+
+input,
+button {
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+  color: #777;
+  font-size: 18px;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+  height: 3vw;
+}
+
+button {
+  color: #777;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -63,7 +109,7 @@ main {
 }
 
 .aa {
-  width: 10vw;
+  width: 8vw;
   padding: 0;
 }
 
@@ -143,7 +189,7 @@ h2 {
 
 .h5{
   gap: 3vw;
-  font-size: 2vw;
+  font-size: 1.5vw;
   text-align: center;
 }
 
@@ -151,13 +197,9 @@ h2 {
 .h6{
   gap: 3vw;
 
-  font-size: 1.7vw;
+  font-size: 1.2vw;
   text-align: center;
   
 
-}
-
-.ponto{
-  color: #fffff;
 }
 
